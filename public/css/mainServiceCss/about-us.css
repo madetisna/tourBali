@@ -1,0 +1,161 @@
+.main-hero {
+    background-image: url(/img/background-aboutUs.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.main-hero .hero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main-hero .hero .hero-title h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #F4F6FF;
+}
+
+.main-hero .hero .hero-title h6 {
+    color: #F4F6FF;
+}
+
+.about-me{
+    padding: 150px 0px 0px 0px;
+    background-color: #090808;
+}
+
+.about-me .about-content-text h2 {
+    font-size: 2.5rem;
+    color: #ffff;
+}
+
+.about-me .about-content-text p{
+    color: #a1a3aa;
+}
+
+
+.gallery{
+    background-color: #090808;
+}
+
+.gallery .text-gallery h1 {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 6rem;
+}
+
+.content-gallery-img {
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-gallery-img .imge-gallery {
+    transition: all 1.1s ease;
+    cursor: pointer;
+}
+
+.content-gallery-img:hover .imge-gallery {
+    transform: scale(1.3);
+}
+
+.tag-line-service {
+    background-image: url(/img/service-bg.png);
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+.tag-line-service .service .icon-service img {
+    width: 7rem;
+}
+
+.tag-line-service .service .icon-service h5 {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'poopins', sans-serif;
+    color: #ffff;
+}
+
+
+.tag-line-service .service .icon-service p {
+    color: #a1a3aa;
+}
+.main-contact{
+    background-color: #090808;
+}
+
+.main-contact .title-contact {
+    text-align: center;
+    margin: 0 0 6rem;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.main-contact .title-contact h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    color: #ffff;
+}
+
+.main-contact .card {
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.4);
+    transition: .3s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.main-contact .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.main-contact .icon-contact {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.main-contact .icon-contact a {
+    color: #ab5523;
+}
+
+.main-contact .card h5 {
+    text-align: center;
+    font-style: italic;
+    color: #ab5523;
+}
+
+.main-contact .card p {
+    font-size: 1rem;
+    font-style: normal;
+    color: black;
+}
+
+@media(max-width: 768px){
+    .gallery .text-gallery h1{
+        font-size: 2rem;
+    }
+    .tag-line-service .service .icon-service img {
+        width: 5rem;
+    }
+
+    .main-contact .title-contact h1{
+        font-size: 2.3rem;
+    }
+}   
+
+@media(max-width: 450px){
+    .main-hero .hero .hero-title h2{
+        font-size: 2rem;
+    }
+    
+}
+

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,500;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,500;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-padding {
+    padding: 100px 0px;
+}
+
+.navbar-brand i {
+    color: #ffff;
+}
+
+.navbar {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    transition: all .3s;
+    background-color:transparent;
+}
+
+
+.navbar .nav-link {
+    margin: 0.5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffff;
+    border-radius: 0.8rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    border-radius: 0.8rem;
+    background-color: #090808;
+}
+
+.main-footer {
+    background-color: #90300f;
+    position: relative;
+}
+
+.footer-content .footer-item .title-box h2{
+    font-size: 3rem;
+    font-weight:700;
+    font-family: 'caveat', cursive;
+    color: #F4F6FF;
+    text-align: center;
+}
+
+.footer-content .footer-item .title-box p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #F4F6FF;
+}
+
+.footer-content .footer-item .title-box  .nav-item a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #F4F6FF;
+}
+
+
+.footer-end {
+    background-color: #FFC107;
+}

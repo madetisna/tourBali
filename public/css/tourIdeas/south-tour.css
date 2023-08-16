@@ -1,0 +1,134 @@
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.carousel-inner::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.south-pakages{
+    background-color: #090808;
+}
+
+.south-pakages .south-tour .content-title h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.south-pakages .south-tour .content-title-text p{
+    color: #a1a3aa;
+}
+
+.south-pakages .south-tour .container h2{
+    color: #ffff;
+}
+
+.south-pakages .south-tour .container .content-text h3{
+    color: #ffff;
+}
+
+.south-pakages .south-tour .container .content-text p{
+    color: #a1a3aa;
+}
+
+
+.south-pakages .south-tour .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.south-pakages .south-tour .card .content-img{
+    height: 100%;
+    overflow: hidden;
+}
+
+.south-pakages .south-tour .card .content-img .card-img{
+    cursor: pointer;
+    transition: all 1.4s;
+}
+
+.south-pakages .south-tour .card .content-img:hover .card-img{
+    transform: scale(1.3);
+}
+
+.south-pakages .south-tour .card {
+    background-color: #343844;
+}
+
+.south-pakages .south-tour .form .card{
+    background-color: #090808;
+    border-color: #343844;
+}
+.south-pakages .south-tour .form .card p,label{
+    color: #ffff;
+}
+.south-pakages .south-tour .form .card input{
+    background-color: #090808;
+    color: #ffff;
+}
+.south-pakages .south-tour textarea{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.south-pakages .south-tour select{
+    background-color: #090808;
+    color: #ffff;
+}
+
+
+
+.tour-pakages-swiper .content-slide .content-img{
+    border-radius: 1.3rem;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.tour-pakages-swiper .content-img img{
+    border-radius: 1.3rem 1.3rem 0rem 0rem;
+}
+
+.btn-pagination{
+    background-color: #508A8B;
+    margin-bottom: 3rem;
+}
+
+.form-booking .btn-form-booking .btn{
+    padding: 0.5rem 2.7rem;
+}
+@media(max-width : 1366px){
+    .hero{
+        padding: 13vh 3vh
+    }
+}
+
+@media (max-width : 768px){
+    .hero{
+        padding: 10vh 3vh;
+    }
+}
+
+@media(max-width : 991px){
+    .hero{
+        padding: 13vh 3vh
+    }
+}
+
+@media(max-width : 450px){
+    .hero{
+        padding : 13vh 2vh;
+    }
+
+    .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 50vh;
+    }
+}

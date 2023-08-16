@@ -1,0 +1,119 @@
+.main-hero .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+
+.main-hero .carousel-inner .carousel-item::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0,0.3);
+}
+
+.north-pakages{
+    background-color: #090808;
+}
+
+.north-pakages .north-tour .container .card{
+    background-color: #343844;
+}
+
+.north-pakages .north-tour .content-title h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.north-pakages .north-tour .container .content-title-text p{
+    color: #a1a3aa;
+}
+
+.north-pakages .north-tour .container h2{
+    color: #ffff;
+}
+
+.north-pakages .north-tour .container .content-text h3{
+    color: #ffff;
+}
+
+.north-pakages .north-tour .container .content-text p{
+    color:#a1a3aa ;
+}
+
+.north-pakages .north-tour .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.north-pakages .north-tour .card .content-img {
+    height: 100%;
+    overflow: hidden;
+}
+
+.north-pakages .north-tour .card .content-img .card-img {
+    cursor: pointer;
+    transition: all 1.4s;
+}
+
+.north-pakages .north-tour .card .content-img:hover .card-img {
+    transform: scale(1.3);
+}
+
+.north-pakages .north-tour .form .card{
+    background-color: #090808;
+    border-color: #343844;
+}
+
+.north-pakages .north-tour .form .card input{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.north-pakages .north-tour .form .card select{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.north-pakages .north-tour .form .card textarea{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.north-pakages .north-tour .form .card label,p{
+    color:#ffff ;
+}
+
+.form-booking .btn-form-booking .btn {
+    padding: 0.5rem 2.7rem;
+}
+
+@media(max-width : 1366px) {
+    .hero {
+        padding: 13vh 3vh
+    }
+}
+
+@media (max-width : 768px) {
+    .hero {
+        padding: 10vh 3vh;
+    }
+}
+
+@media(max-width : 991px) {
+    .hero {
+        padding: 13vh 3vh
+    }
+}
+
+@media(max-width : 450px) {
+    .hero {
+        padding: 13vh 2vh;
+    }
+    .main-hero .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 50vh;
+    }
+}

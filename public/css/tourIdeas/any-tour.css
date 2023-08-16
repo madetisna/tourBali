@@ -1,0 +1,101 @@
+
+.main-hero{
+    background-image: url(/img/pesawat.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.2);
+}
+
+.hero .hero-title h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F4F6FF;
+}
+.hero .hero-title h4{
+    color: #F4F6FF;
+}
+
+
+.content-tour{
+    background-color: #090808;
+}
+.content-tour .card{
+    background-color: #090808;
+    border-color:#343844 ;
+}
+
+.form .card {
+    background-color: #090808;    
+}
+
+.form .card input{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.form .card select{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.form .card textarea{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.form .card p,label{
+    color: #ffff;
+}
+
+.content-tour .content-title-text p{
+    color: #a1a3aa;
+}
+
+.content-tour .content-car .card h2,h4{
+    color: #ffff;
+}
+
+.content-tour .content-car h6{
+    color: #a1a3aa;
+}
+
+.content-tour .content-car i{
+    color: green;
+}
+
+
+
+.form-booking .btn-form-booking .btn {
+    padding: 0.5rem 2.7rem;
+}
+
+@media(max-width : 1366px) {
+    .hero {
+        padding: 13vh 3vh
+    }
+}
+
+@media (max-width : 768px) {
+    .hero {
+        padding: 10vh 3vh;
+    }
+}
+
+@media(max-width : 991px) {
+    .hero {
+        padding: 13vh 3vh
+    }
+}
+
+@media(max-width : 450px) {
+    .hero {
+        padding: 13vh 2vh;
+    }
+}

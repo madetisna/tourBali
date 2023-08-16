@@ -1,0 +1,183 @@
+.main-hero {
+    background-image: url(/img/diamondBeach.jpg);
+    background-size: cover;
+    min-height: 300px;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.hero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hero .hero-title h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F4F6FF;
+}
+
+.main-content{
+    background-color: #090808;
+}
+
+
+.main-content .content-title .content-title-text p{
+    color: #a1a3aa;
+}
+.main-content .content-title .content-title-text h2{
+    font-size: 3rem;
+    color: #ffff;
+}
+
+.main-content .content-car .card{
+    background-color: #090808;
+    border-color: #40434e;
+}
+
+.main-content .content-car .content-car-text h2{
+    color: #ffff;
+}
+
+.main-content .content-car-text h5{
+    color: #a1a3aa;
+}
+
+.main-content .content-car .content-car-text h6{
+    color: #ffff;
+}
+.main-content .content-car-text i{
+    color: green;
+}
+
+.form .card{
+    background-color: #090808;
+    border-color: #40434e
+}
+
+.form .card p{
+    color: #ffff;
+}
+
+.card .form-booking label {
+    color:#ffff ;
+}
+
+.card .form-booking input{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.card .form-booking select{
+    background-color: #090808;
+    color:#ffff;
+}
+
+.card .form-booking textarea{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.tour-pakages-swiper .content-slide .content-img {
+    border-radius: 1.3rem;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.tour-pakages-swiper .content-img img {
+    border-radius: 1.3rem 1.3rem 0rem 0rem;
+}
+
+.btn-pagination {
+    margin-bottom: 3rem;
+}
+
+.main-contact{
+    background-color: #090808;
+}
+
+.main-contact .title-contact {
+    text-align: center;
+    margin: 0 0 6rem;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.main-contact .title-contact h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    color: #ffff;
+}
+
+.main-contact .card {
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.4);
+    transition: .3s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.main-contact .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.main-contact .icon-contact {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.main-contact .icon-contact a {
+    color: #ab5523;
+}
+
+.main-contact .card h5 {
+    text-align: center;
+    font-style: italic;
+    color:#ab5523 ;
+}
+
+.main-contact .card p {
+    font-size: 1rem;
+    font-style: normal;
+    color: black;
+}
+
+.form-booking .btn-form-booking .btn {
+    padding: 0.5rem 2.7rem;
+}
+
+@media(max-width : 1366px) {
+    .hero {
+        padding: 13vh 3vh
+    }
+}
+
+@media (max-width : 768px) {
+    .hero {
+        padding: 10vh 3vh;
+    }
+
+    .main-hero .hero-title h2 {
+        font-size: 2.1rem;
+    }
+
+    .main-contact .title-contact h1 {
+        font-size: 2.3rem;
+    }
+
+
+
+}
+
+
+@media(max-width : 450px) {
+    .hero {
+        padding: 13vh 2vh;
+    }
+
+    .main-contact .card:hover {
+        transform: scale(1);
+    }
+}

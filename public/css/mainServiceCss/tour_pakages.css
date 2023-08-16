@@ -1,0 +1,115 @@
+
+.main-hero{
+    background-image: url(/img/background-tourIdea.jpg);
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hero .hero-title h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F4F6FF;
+}
+
+.tour-pakages{
+    background-color: #090808;
+}
+
+.tour-pakages .card{
+    background-color: #343844;
+}
+
+.tour-pakages .card-img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.tour-pakages .card{
+    min-height: 40vh;
+}
+
+.tour-pakages .card-body{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2rem;
+}
+
+.tour-pakages .card-body h3{
+    color: #ffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.tour-pakages .card-body h6{
+    font-weight: 600;
+    color: #a1a3aa;
+}
+
+
+.tour-pakages .card-body .star-fill i{
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.main-contact{
+    background-color: #090808;
+}
+
+.main-contact .title-contact {
+    text-align: center;
+    margin: 0 0 6rem;
+    font-style: normal;
+    font-weight: 900;
+}
+.main-contact .title-contact h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    color: #ffff;
+}
+
+.main-contact .card {
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.main-contact .card:hover {
+    transform: scale(1.1);
+}
+
+.main-contact .icon-contact {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.main-contact .icon-contact svg {
+    color: #ab5523;
+}
+
+.main-contact .card h5 {
+    text-align: center;
+    font-style: italic;
+    color: #ab5523;
+}
+
+.main-contact .card p {
+    font-size: 1rem;
+    font-style: normal;
+    color: black;
+}
+
+
+@media(max-width: 450px){
+    .main-hero .hero-title h2{
+        font-size: 2rem;
+    }
+}

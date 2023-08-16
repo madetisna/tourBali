@@ -1,0 +1,128 @@
+.main-hero .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+
+.main-hero .carousel-inner .carousel-item::before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    z-index: 1;
+}
+
+.kintamani-pakages{
+    background-color: #090808;
+}
+
+.kintamani-pakages .kintamani-tour .container .content-title-text p{
+    color: #a1a3aa;
+}
+
+.kintamani-pakages .kintamani-tour .container h2{
+    color: #ffff;
+}
+
+
+
+.kintamani-pakages .kintamani-tour .content-title h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.kintamani-pakages .kintamani-tour .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kintamani-pakages .kintamani-tour .card .content-img {
+    height: 100%;
+    overflow: hidden;
+}
+
+.kintamani-pakages .kintamani-tour .container .card{
+    background-color: #343844;
+}
+
+.kintamani-pakages .kintamani-tour .container .content-text h3{
+    color: #ffff;
+}
+
+.kintamani-pakages .kintamani-tour .container .content-text p{
+    color: #a1a3aa;
+}
+
+.kintamani-pakages .kintamani-tour .container .form .card{
+    background-color: #090808;
+    border-color: #343844;
+}
+
+.kintamani-pakages .kintamani-tour .container .form .card label,p{
+    color: #ffff;
+}
+
+.kintamani-pakages .kintamani-tour .container .form .card input{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.kintamani-pakages .kintamani-tour .container .form .card select{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.kintamani-pakages .kintamani-tour .container .form .card textarea{
+    background-color: #090808;
+    color: #ffff;
+}
+
+.kintamani-pakages .kintamani-tour .card .content-img .card-img {
+    cursor: pointer;
+    transition: all 1.4s;
+}
+
+.kintamani-pakages .kintamani-tour .card .content-img:hover .card-img {
+    transform: scale(1.3);
+}
+
+.kintamani-pakages .kintamani-tour .card .content-text h2 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+
+
+.form-booking .btn-form-booking .btn {
+    padding: 0.5rem 2.7rem;
+}
+
+@media(max-width : 1366px) {
+    .hero {
+        padding: 13vh 3vh
+    }
+}
+
+@media (max-width : 768px) {
+    .hero {
+        padding: 10vh 3vh;
+    }
+}
+
+@media(max-width : 991px) {
+    .hero {
+        padding: 13vh 3vh
+    }
+}
+
+@media(max-width : 450px) {
+    .hero {
+        padding: 13vh 2vh;
+    }
+    .main-hero .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 50vh;
+    }
+}

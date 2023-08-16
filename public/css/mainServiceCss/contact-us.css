@@ -1,0 +1,156 @@
+
+.main-hero {
+    background-image: url(/img/pesawat.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.main-hero .hero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-hero .hero .hero-title h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F4F6FF;
+}
+
+.main-hero .hero .hero-title h6 {
+    color: #F4F6FF;
+}
+
+.main-contact{
+    background-color: #090808;
+}
+
+.main-contact .contact-content .container{
+    background-color: #ffff;
+    border-radius: 3rem;
+}
+
+.contact-content .content-icon{
+    padding: 4rem 0rem ;
+}
+
+.content-icon .icon-contact svg{
+    color: #ab5523;
+}
+
+.main-contact .icon-contact {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.main-contact .icon-text h5{
+    color: #ab5523;
+    font-size: 1.5rem;
+    font-family: 'poopins',sans-serif;
+    font-weight: 600;
+}
+
+.main-contact .icon-text p{
+    color: black;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+
+.maps{
+    background-color: #090808;
+}
+
+.section-maps .maps{
+    width: 200vh;
+}
+.section-maps iframe{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 4rem;
+    padding: 2rem;
+}
+
+.section-img {
+    background-image: url(/img/uluwatu-tour.png);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.section-contact::hover .section-img{
+    transform: scale(1.1);
+}
+
+.section-img .btn a{
+    height: 4rem;
+    font-weight: 700;
+    padding-top: 1.1rem;
+    font-size: 1.3rem;
+    font-family: 'poppins',sans-serif;
+}
+
+
+.section-text{
+    background-color: #090808;
+    width: 100%;
+    height: 50vh;
+    padding: 3rem;
+}
+.section-text h3{
+    color: #ffff;
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+}
+.section-text h6{
+    color: #a1a3aa;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+}
+.section-text i{
+    font-size: 2rem;
+    color: #ffff;
+}
+.section-text span{
+    font-size: 1rem;
+    color: #a1a3aa;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+}
+
+@media screen and (max-width: 1366px) {
+    .section-text span{
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .section-text {
+        padding: 1.5rem;
+    }
+    .section-text span{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-text {
+        padding: 1rem;
+    }
+    .section-text span{
+        font-size: 0.6rem;
+    }
+    
+}
+
+
+
